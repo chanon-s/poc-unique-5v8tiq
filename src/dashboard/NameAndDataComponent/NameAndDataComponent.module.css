@@ -1,0 +1,30 @@
+/* NameAndDataComponent.module.css */
+.container {
+    background-color: #000080; /* สีน้ำเงินเข้ม */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; /* จัดให้เนื้อหาอยู่คนละบรรทัด */
+    align-items: flex-start; /* จัดชิดซ้าย */
+    margin-bottom: 20px;
+  }
+  
+  .name,
+  .data {
+    width: 100%; /* ให้ขนาดเต็มความกว้างของ container */
+  }
+  
+  .name {
+    color: #ffffff; /* สีขาว */
+    font-weight: bold;
+    font-size: 1.2rem; /* ปรับขนาดตัวอักษรให้เล็กลง */
+    margin: 0rem; /* ปรับระยะห่างของบรรทัดให้น้อยลง */
+  }
+  
+  .data {
+    color: #ffc107; /* สีเหลือง */
+    font-size: 1rem; /* ปรับขนาดตัวอักษรให้เล็กลง */
+    margin: 0rem; /* ปรับระยะห่างของบรรทัดให้น้อยลง */
+  }
+  
